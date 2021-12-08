@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: darkgrey;
+}
+
+.content-sidebar {
+    display:flex;
+    gap: .25em;
+    flex-wrap: wrap;
+}
+
+.content-sidebar > *:nth-child(1) {
+    flex: 1 1 30%;
+    padding: .25em;
+    /* min-width: 250px; */
+}
+
+.content-sidebar > *:nth-child(2) {
+    flex: 1 1 67%;
+    padding: .25em;
+    /* min-width: 250px; */
+}
